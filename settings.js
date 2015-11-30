@@ -1,5 +1,7 @@
 module.exports = {
-  cookieSecret: 'crm',
-  db: 'crm',
-  host: 'localhost'
+  cookieSecret: 'letusball',
+  db: 'letusball',
+  host: 'localhost:27017',
+  user:'WeAreFamily',
+  pass:'letUs'
 };

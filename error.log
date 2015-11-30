@@ -1,0 +1,612 @@
+[Fri Nov 27 2015 19:38:31 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:40:18 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312300
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:34 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312301
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:37 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312302
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:38 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312303
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:38 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312304
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:38 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312305
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:39 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312307
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:46:40 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312306
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 19:51:31 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312308
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 20:36:28 GMT+0800 (中国标准时间)] /news/getNewsDetail?callback=success&newsId=144854300837606&_=1448624312309
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 20:38:09 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&specific%5BnewsId%5D=144854300837606&modifyVal%5BnewsName%5D=%E5%A9%B7%E5%A9%B7%E6%88%91%E7%88%B1%E4%BD%A0%EF%BC%81&_=1448624312310
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 20:43:48 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&specific%5BnewsId%5D=144854300837606&modifyVal%5BnewsName%5D=%E5%A9%B7%E5%A9%B7%E6%88%91%E7%88%B1%E4%BD%A0%EF%BC%81&_=1448624312311
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 20:56:18 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsName%5D=%E5%A9%B7%E5%A9%B7%E6%88%91%E7%88%B1%E4%BD%A0%EF%BC%81&_=1448624312312
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 20:59:01 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsName%5D=%E5%A9%B7%E5%A9%B7%E6%88%91%E7%88%B1%E4%BD%A0%EF%BC%81&_=1448624312313
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Fri Nov 27 2015 21:12:56 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsName%5D=%E5%A9%B7%E5%A9%B7%E6%88%91%E7%88%B1%E4%BD%A0%EF%BC%81&_=1448624312314
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball/views"
+    at EventEmitter.render (E:\Rex\git\letusball\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 20:52:40 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 20:53:52 GMT+0800 (中国标准时间)] /news/getNewsCollection?callback=success&_=1448887973250
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 20:56:26 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsTitle%5D=love+Jody&_=1448887973251
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 20:59:29 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsTitle%5D=love+Jody&_=1448887973252
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:00:21 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&_=1448887973253
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:00:23 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&_=1448887973254
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:00:24 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&_=1448887973255
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:00:24 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&_=1448887973256
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:00:25 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&_=1448887973257
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:01:23 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:01:39 GMT+0800 (中国标准时间)] /news/getNewsCollection?callback=success&_=1448888484788
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:13:35 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:13:58 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsTitle%5D=love+Jody&_=1448889215499
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:22:11 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:22:28 GMT+0800 (中国标准时间)] /news/getNewsCollection?callback=success&_=1448889732018
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:22:47 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsTitle%5D=love+Jody&_=1448889732019
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:23:59 GMT+0800 (中国标准时间)] /teams
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
+[Mon Nov 30 2015 21:24:18 GMT+0800 (中国标准时间)] /news/updateNewsCollection?callback=success&conditions%5BnewsId%5D=144854300837606&update%5BnewsTitle%5D=love+Jody&_=1448889840212
+Error: Failed to lookup view "404" in views directory "E:\Rex\git\letusball-rex/views"
+    at EventEmitter.render (E:\Rex\git\letusball-rex\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (E:\Rex\git\letusball-rex\node_modules\express\lib\response.js:961:7)
+    at E:\Rex\git\letusball-rex\app.js:81:9
+    at Layer.handle [as handle_request] (E:\Rex\git\letusball-rex\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:312:13)
+    at E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\Rex\git\letusball-rex\node_modules\express\lib\router\index.js:271:10)
+    at E:\Rex\git\letusball-rex\node_modules\express-session\index.js:437:7
+    at E:\Rex\git\letusball-rex\node_modules\connect-mongo\lib\connect-mongo.js:305:11
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\collection.js:1322:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\lib\utils.js:96:12)
+    at E:\Rex\git\letusball-rex\node_modules\mongodb\lib\cursor.js:666:5
+    at handleCallback (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:244:5)
+    at nextFunction (E:\Rex\git\letusball-rex\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:760:5)
