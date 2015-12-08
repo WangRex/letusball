@@ -52,6 +52,8 @@ router.get('/getNewsDetail', function(req, res, next) {
 });
 
 router.get('/getNewsCollection', function(req, res, next) {
+
+    res.setHeader("Access-Control-Allow-Origin", "*"); //允许所有域名访问
     var conditions = {};
 
     var newsSummary = {};
