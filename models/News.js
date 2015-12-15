@@ -91,6 +91,18 @@ News.prototype.findNews = function(conditions, callback) {
 
 };
 
+News.prototype.findNewsLimit = function(conditions, skip, limit, callback) {
+    // executing a query explicitly
+    var query1 = NewsModel.find(conditions, "newsId newsName newsTitle newsContent").skip(skip).limit(limit).sort({"createdTime":-1});
+    var query2 = NewsModel.find(conditions);
+    query1.exec(function(err, docs) {
+        query2.count(function(errs, count) {
+            callback(err, docs, count);
+        });
+    });
+
+};
+
 News.prototype.updateNews = function(conditions, update, options, callback) {
     /*var conditions = {
         name: 'borne'

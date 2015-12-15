@@ -34,6 +34,8 @@ router.route('/saveNews').get(function(req, res, next) {
 });
 
 router.get('/getNewsDetail', function(req, res, next) {
+
+    res.setHeader("Access-Control-Allow-Origin", "*"); //允许所有域名访问
     var conditions = {
         newsId: req.query.newsId
     };
@@ -59,6 +61,26 @@ router.get('/getNewsCollection', function(req, res, next) {
     var newsSummary = {};
     news = new News(newsSummary);
     news.findNews(conditions, function(err, news, total) {
+        if (err) {
+            news = [];
+        }
+        news.total = total;
+        res.header('Content-type', 'application/json');
+        res.header('Charset', 'utf8');
+        res.jsonp(news);
+    });
+});
+
+router.get('/getNewsCollectionRefresh', function(req, res, next) {
+
+    res.setHeader("Access-Control-Allow-Origin", "*"); //允许所有域名访问
+    var conditions = {};
+    var skip = req.query.skip;
+    var limit = req.query.limit;
+
+    var newsSummary = {};
+    news = new News(newsSummary);
+    news.findNewsLimit(conditions, skip, limit, function(err, news, total) {
         if (err) {
             news = [];
         }
