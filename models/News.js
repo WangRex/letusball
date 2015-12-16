@@ -39,14 +39,24 @@ function News(news) {
 //save news
 News.prototype.save = function(callback) {
     //the doc to save
+
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth()+1;
+    var day = date.getDate();
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    var second = date.getSeconds();
+    var nowDate = year+'-'+month+'-'+day+' '+hour':'+minute+':'+second;
+
     var news = {
         newsId: this.newsId,
         newsName: this.newsName,
         newsTitle: this.newsTitle,
         newsContent: this.newsContent,
         newsAuthor: this.newsAuthor,
-        updatedTime: new Date(),
-        createdTime: new Date(),
+        updatedTime: nowDate,
+        createdTime: nowDate,
         newsLevel: this.newsLevel,
         newsFlag: this.newsFlag,
         relateTeam: this.relateTeam
@@ -92,8 +102,16 @@ News.prototype.findNews = function(conditions, callback) {
 };
 
 News.prototype.findNewsLimit = function(conditions, skip, limit, callback) {
+    var skipVal = skip || 0;
+    var limitVal = limit || 0;
     // executing a query explicitly
-    var query1 = NewsModel.find(conditions, "newsId newsName newsTitle newsContent").skip(skip).limit(limit).sort({"createdTime":-1});
+    var query1 = NewsModel.find(conditions, "newsId newsName newsTitle newsContent createdTime").sort({"createdTime":-1});
+    if (skipVal != 0) {
+        query1.skip(skipVal);
+    }
+    if (limitVal != 0) {
+        query1.limit(limitVal);
+    }
     var query2 = NewsModel.find(conditions);
     query1.exec(function(err, docs) {
         query2.count(function(errs, count) {

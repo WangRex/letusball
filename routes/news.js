@@ -74,9 +74,12 @@ router.get('/getNewsCollection', function(req, res, next) {
 router.get('/getNewsCollectionRefresh', function(req, res, next) {
 
     res.setHeader("Access-Control-Allow-Origin", "*"); //允许所有域名访问
-    var conditions = {};
-    var skip = req.query.skip;
-    var limit = req.query.limit;
+    var conditions;
+    if (req.query.createdTime) {
+        conditions = {"createdTime": {"$gte":req.query.createdTime}};
+    };
+    var skip = req.query.skip || 0;
+    var limit = req.query.limit || 0;
 
     var newsSummary = {};
     news = new News(newsSummary);
