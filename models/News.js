@@ -25,10 +25,22 @@ var NewsSchema = new Schema({
 var NewsModel = mongoose.model('news', NewsSchema);
 
 function News(news) {
+
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    var second = date.getSeconds();
+    var nowDate = year + '/' + month + '/' + day + ' ' + hour + ':' + minute + ':' + second;
+
     this.newsId = news.newsId;
     this.newsName = news.newsName;
     this.newsTitle = news.newsTitle;
     this.newsContent = news.newsContent;
+    this.createdTime = nowDate;
+    this.updatedTime = nowDate;
     this.newsAuthor = news.newsAuthor;
     this.newsLevel = news.newsLevel;
     this.newsFlag = news.newsFlag;
@@ -40,23 +52,14 @@ function News(news) {
 News.prototype.save = function(callback) {
     //the doc to save
 
-    var date = new Date();
-    var year = date.getFullYear();
-    var month = date.getMonth()+1;
-    var day = date.getDate();
-    var hour = date.getHours();
-    var minute = date.getMinutes();
-    var second = date.getSeconds();
-    var nowDate = year+'-'+month+'-'+day+' '+hour':'+minute+':'+second;
-
     var news = {
         newsId: this.newsId,
         newsName: this.newsName,
         newsTitle: this.newsTitle,
         newsContent: this.newsContent,
+        createdTime: this.createdTime,
+        updatedTime: this.updatedTime,
         newsAuthor: this.newsAuthor,
-        updatedTime: nowDate,
-        createdTime: nowDate,
         newsLevel: this.newsLevel,
         newsFlag: this.newsFlag,
         relateTeam: this.relateTeam
@@ -105,7 +108,9 @@ News.prototype.findNewsLimit = function(conditions, skip, limit, callback) {
     var skipVal = skip || 0;
     var limitVal = limit || 0;
     // executing a query explicitly
-    var query1 = NewsModel.find(conditions, "newsId newsName newsTitle newsContent createdTime").sort({"createdTime":-1});
+    var query1 = NewsModel.find(conditions, "newsId newsName newsTitle newsContent createdTime").sort({
+        "createdTime": -1
+    });
     if (skipVal != 0) {
         query1.skip(skipVal);
     }

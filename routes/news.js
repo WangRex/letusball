@@ -14,8 +14,6 @@ router.route('/saveNews').get(function(req, res, next) {
         newsId: newsId,
         newsTitle: req.query.newsTitle,
         newsContent: req.query.newsContent,
-        updatedTime: new Date(),
-        createdTime: new Date(),
         newsAuthor: 'Rex',
         newsLevel: '1',
         newsFlag: 0
@@ -74,7 +72,7 @@ router.get('/getNewsCollection', function(req, res, next) {
 router.get('/getNewsCollectionRefresh', function(req, res, next) {
 
     res.setHeader("Access-Control-Allow-Origin", "*"); //允许所有域名访问
-    var conditions;
+    var conditions = {};
     if (req.query.createdTime) {
         conditions = {"createdTime": {"$gte":req.query.createdTime}};
     };
