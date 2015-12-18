@@ -1,7 +1,8 @@
 var mongoose = require('./db'),
     _ = require("underscore"),
     Schema = mongoose.Schema,
-    util = require("util");
+    util = require("util"),
+    Utils = require("./Utils");
 var NewsSchema = new Schema({
     id: Schema.Types.ObjectId,
     newsId: String,
@@ -10,11 +11,11 @@ var NewsSchema = new Schema({
     newsContent: Schema.Types.Mixed,
     updatedTime: {
         type: Date,
-        default: Date.now
+        default: Utils.formatDate(new Date(), "yyyy/MM/dd h:m:s")
     },
     createdTime: {
         type: Date,
-        default: Date.now
+        default: Utils.formatDate(new Date(), "yyyy/MM/dd h:m:s")
     },
     newsAuthor: String, // new's author
     newsLevel: String, //new's level
@@ -26,21 +27,10 @@ var NewsModel = mongoose.model('news', NewsSchema);
 
 function News(news) {
 
-    var date = new Date();
-    var year = date.getFullYear();
-    var month = date.getMonth() + 1;
-    var day = date.getDate();
-    var hour = date.getHours();
-    var minute = date.getMinutes();
-    var second = date.getSeconds();
-    var nowDate = year + '/' + month + '/' + day + ' ' + hour + ':' + minute + ':' + second;
-
     this.newsId = news.newsId;
     this.newsName = news.newsName;
     this.newsTitle = news.newsTitle;
     this.newsContent = news.newsContent;
-    this.createdTime = nowDate;
-    this.updatedTime = nowDate;
     this.newsAuthor = news.newsAuthor;
     this.newsLevel = news.newsLevel;
     this.newsFlag = news.newsFlag;
@@ -57,8 +47,6 @@ News.prototype.save = function(callback) {
         newsName: this.newsName,
         newsTitle: this.newsTitle,
         newsContent: this.newsContent,
-        createdTime: this.createdTime,
-        updatedTime: this.updatedTime,
         newsAuthor: this.newsAuthor,
         newsLevel: this.newsLevel,
         newsFlag: this.newsFlag,
@@ -70,6 +58,7 @@ News.prototype.save = function(callback) {
     NewsModel.findOne(conditions, function(err, doc) {
         if (doc === null) {
             var newsModel = new NewsModel(news);
+            debugger;
             newsModel.save(function() {
                 callback(err, newsModel);
             });
@@ -84,6 +73,8 @@ News.prototype.save = function(callback) {
             doc.newsLevel = news.newsLevel;
             doc.newsFlag = news.newsFlag;
             doc.relateTeam = news.relateTeam;
+
+            console.log(doc);
 
             doc.save(function() {
                 callback(err, doc);
